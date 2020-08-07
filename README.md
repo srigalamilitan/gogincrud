@@ -7,7 +7,7 @@ learning golanng with gin , gorm and wire
 2. Running Golang 
  PORT=8080 DB_URL="root:password_DB@(IP_ADDRESS:PORT)/gogin?charset=utf8&parseTime=True&loc=Local" ./gogincrud
  
- ##Docker
+ ## Docker
  1. Build Images
   at folder gogincrud run script
   docker build -t gogincrud:1.0.0 .
